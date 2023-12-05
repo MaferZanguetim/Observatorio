@@ -1,4 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family= Chivo+Mono:wght@200 & display família= Chivo+Mono:wght@200;400;600;700 & swap');
+
 *{
-    margin: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    width: 100%;
+    align-items: center;
+    height: 100%;
     
+}
+
+#container-top {
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 10vh;
+    font-size: large;
+    padding-left: 30px;
+    bottom: 90vh;
+    position: fixed;
+}
+
+#navegacao{
+    margin-top: 5vw;
+    display: flex;
+    width: 10vw;
+    height: 100vh;
+    bottom: -9vh;
+    float: left;
+    position: static;
+    background-color: purple;
+    position: fixed;
+}
+
+#conteudo{
+    margin-top: 15vh;
+    margin-left: 5vw;
+    width: 90vw;
+    height: 100vh;
+    padding-left: 160px;
+    position: inherit;
+}
+
+.obs-top{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+    
+}
+
+.pes-not{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+a:hover{
+    color: black;
+}
+
+p {
+    padding: 5px;
+}
+
+ul{
+    margin: 1vw;
+    padding: 0;
+    list-style-type: none;
+    width: 150px;
+    height: 90vh;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buscar{
+    color: white;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+input{
+    width: 140px;
+}
+
+
+.espaçamento{
+    padding-bottom: 15px;
 }
