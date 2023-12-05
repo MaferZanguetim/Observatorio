@@ -13,6 +13,17 @@ body{
     
 }
 
+h1 {
+    margin-bottom: 3vh;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 1.5vw;
+    margin-top: 40vh;
+}
+
 #container-top {
     background-color: purple;
     display: flex;
@@ -24,12 +35,13 @@ body{
     padding-left: 30px;
     bottom: 90vh;
     position: fixed;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #navegacao{
     margin-top: 5vw;
     display: flex;
-    width: 10vw;
+    width: 12vw;
     height: 100vh;
     bottom: -9vh;
     float: left;
